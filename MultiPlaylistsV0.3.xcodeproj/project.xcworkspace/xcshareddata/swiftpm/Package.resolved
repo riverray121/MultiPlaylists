@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "soundcloud",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lbrndnr/SoundCloud",
+      "state" : {
+        "branch" : "master",
+        "revision" : "7ad5493a2a0868d24924461100a40fcaf43d0184"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -7,18 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED108559297C90AF0099BFF1 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED108558297C90AF0099BFF1 /* TabBarView.swift */; };
+		ED10855B297C90C70099BFF1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED10855A297C90C70099BFF1 /* ProfileView.swift */; };
+		ED10855D297C90D40099BFF1 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED10855C297C90D40099BFF1 /* ExploreView.swift */; };
+		ED10855F297C91110099BFF1 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED10855E297C91110099BFF1 /* CommunityView.swift */; };
+		ED108561297C9AFB0099BFF1 /* ScreenSizeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED108560297C9AFB0099BFF1 /* ScreenSizeHelper.swift */; };
+		ED108563297C9B1E0099BFF1 /* ArtistNameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED108562297C9B1E0099BFF1 /* ArtistNameHelper.swift */; };
+		ED108566297C9B610099BFF1 /* SpotifyArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED108565297C9B610099BFF1 /* SpotifyArtist.swift */; };
+		ED108568297C9B940099BFF1 /* SpotifyImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED108567297C9B940099BFF1 /* SpotifyImageModel.swift */; };
+		ED10856A297C9BE20099BFF1 /* SpotifyTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED108569297C9BE20099BFF1 /* SpotifyTrack.swift */; };
+		ED10856C297C9C050099BFF1 /* SpotifyAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED10856B297C9C050099BFF1 /* SpotifyAlbum.swift */; };
+		ED108570297C9C810099BFF1 /* SpotifyUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED10856F297C9C810099BFF1 /* SpotifyUserProfile.swift */; };
+		ED108573297C9D0A0099BFF1 /* SpotifyPlayerManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED108572297C9D0A0099BFF1 /* SpotifyPlayerManagerViewModel.swift */; };
+		ED108575297C9D3A0099BFF1 /* SpotifyProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED108574297C9D3A0099BFF1 /* SpotifyProfileViewModel.swift */; };
+		ED108579297C9EFF0099BFF1 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED108578297C9EFF0099BFF1 /* PlayerView.swift */; };
 		ED5758372969FADA00373F3E /* MultiPlaylistsV0_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5758362969FADA00373F3E /* MultiPlaylistsV0_3App.swift */; };
-		ED5758392969FADA00373F3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5758382969FADA00373F3E /* ContentView.swift */; };
 		ED57583B2969FADB00373F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED57583A2969FADB00373F3E /* Assets.xcassets */; };
 		ED57583E2969FADB00373F3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED57583D2969FADB00373F3E /* Preview Assets.xcassets */; };
+		ED6561A9296A4CAB00491487 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6561A8296A4CAB00491487 /* WelcomeView.swift */; };
+		ED6561AB296A4F0B00491487 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6561AA296A4F0B00491487 /* HomeView.swift */; };
+		ED6561AD296A4F5600491487 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6561AC296A4F5600491487 /* AuthenticationView.swift */; };
+		ED72BEC5296E3C37008E3E5A /* SoundCloudAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72BEC4296E3C37008E3E5A /* SoundCloudAuthManager.swift */; };
+		ED72BEC7296E3C42008E3E5A /* SpotifyAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72BEC6296E3C42008E3E5A /* SpotifyAuthManager.swift */; };
+		ED72BECA296E3C71008E3E5A /* SoundCloud in Frameworks */ = {isa = PBXBuildFile; productRef = ED72BEC9296E3C71008E3E5A /* SoundCloud */; };
+		ED72BECC296E3CC6008E3E5A /* UserDefaultHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72BECB296E3CC6008E3E5A /* UserDefaultHelpers.swift */; };
+		ED72BECE296E3D14008E3E5A /* SpotifyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72BECD296E3D14008E3E5A /* SpotifyError.swift */; };
+		ED72BED0296E3D31008E3E5A /* SpotifyParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72BECF296E3D31008E3E5A /* SpotifyParsing.swift */; };
+		ED72BED2296E3D68008E3E5A /* SpotifyAuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72BED1296E3D68008E3E5A /* SpotifyAuthResponse.swift */; };
+		ED72BED4296E3DA4008E3E5A /* SoundCloudAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72BED3296E3DA4008E3E5A /* SoundCloudAuthView.swift */; };
+		ED72BED6296E3DB0008E3E5A /* SpotifyAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72BED5296E3DB0008E3E5A /* SpotifyAuthView.swift */; };
+		ED72BED8296E3DE3008E3E5A /* SoundCloudWebUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72BED7296E3DE3008E3E5A /* SoundCloudWebUIView.swift */; };
+		ED72BEDA296E3E0C008E3E5A /* SpotifyWebUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72BED9296E3E0C008E3E5A /* SpotifyWebUIView.swift */; };
+		ED72BEDC296E3EC8008E3E5A /* SpotifyAPICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72BEDB296E3EC8008E3E5A /* SpotifyAPICaller.swift */; };
+		EDADEE17296E3B2500110C39 /* MainAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDADEE16296E3B2500110C39 /* MainAuthManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED108558297C90AF0099BFF1 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		ED10855A297C90C70099BFF1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		ED10855C297C90D40099BFF1 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		ED10855E297C91110099BFF1 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		ED108560297C9AFB0099BFF1 /* ScreenSizeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSizeHelper.swift; sourceTree = "<group>"; };
+		ED108562297C9B1E0099BFF1 /* ArtistNameHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistNameHelper.swift; sourceTree = "<group>"; };
+		ED108565297C9B610099BFF1 /* SpotifyArtist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyArtist.swift; sourceTree = "<group>"; };
+		ED108567297C9B940099BFF1 /* SpotifyImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyImageModel.swift; sourceTree = "<group>"; };
+		ED108569297C9BE20099BFF1 /* SpotifyTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyTrack.swift; sourceTree = "<group>"; };
+		ED10856B297C9C050099BFF1 /* SpotifyAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAlbum.swift; sourceTree = "<group>"; };
+		ED10856F297C9C810099BFF1 /* SpotifyUserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyUserProfile.swift; sourceTree = "<group>"; };
+		ED108572297C9D0A0099BFF1 /* SpotifyPlayerManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyPlayerManagerViewModel.swift; sourceTree = "<group>"; };
+		ED108574297C9D3A0099BFF1 /* SpotifyProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyProfileViewModel.swift; sourceTree = "<group>"; };
+		ED108578297C9EFF0099BFF1 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		ED5758332969FADA00373F3E /* MultiPlaylistsV0.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiPlaylistsV0.3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5758362969FADA00373F3E /* MultiPlaylistsV0_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPlaylistsV0_3App.swift; sourceTree = "<group>"; };
-		ED5758382969FADA00373F3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED57583A2969FADB00373F3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED57583D2969FADB00373F3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED6561A8296A4CAB00491487 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		ED6561AA296A4F0B00491487 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ED6561AC296A4F5600491487 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		ED72BEC4296E3C37008E3E5A /* SoundCloudAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCloudAuthManager.swift; sourceTree = "<group>"; };
+		ED72BEC6296E3C42008E3E5A /* SpotifyAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAuthManager.swift; sourceTree = "<group>"; };
+		ED72BECB296E3CC6008E3E5A /* UserDefaultHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultHelpers.swift; sourceTree = "<group>"; };
+		ED72BECD296E3D14008E3E5A /* SpotifyError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyError.swift; sourceTree = "<group>"; };
+		ED72BECF296E3D31008E3E5A /* SpotifyParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyParsing.swift; sourceTree = "<group>"; };
+		ED72BED1296E3D68008E3E5A /* SpotifyAuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAuthResponse.swift; sourceTree = "<group>"; };
+		ED72BED3296E3DA4008E3E5A /* SoundCloudAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCloudAuthView.swift; sourceTree = "<group>"; };
+		ED72BED5296E3DB0008E3E5A /* SpotifyAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAuthView.swift; sourceTree = "<group>"; };
+		ED72BED7296E3DE3008E3E5A /* SoundCloudWebUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCloudWebUIView.swift; sourceTree = "<group>"; };
+		ED72BED9296E3E0C008E3E5A /* SpotifyWebUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyWebUIView.swift; sourceTree = "<group>"; };
+		ED72BEDB296E3EC8008E3E5A /* SpotifyAPICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAPICaller.swift; sourceTree = "<group>"; };
+		EDADEE16296E3B2500110C39 /* MainAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAuthManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +83,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED72BECA296E3C71008E3E5A /* SoundCloud in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED108556297C8EC80099BFF1 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				ED6561A8296A4CAB00491487 /* WelcomeView.swift */,
+				ED6561AC296A4F5600491487 /* AuthenticationView.swift */,
+				ED72BED3296E3DA4008E3E5A /* SoundCloudAuthView.swift */,
+				ED72BED5296E3DB0008E3E5A /* SpotifyAuthView.swift */,
+				ED108557297C8F030099BFF1 /* WebUIViews */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		ED108557297C8F030099BFF1 /* WebUIViews */ = {
+			isa = PBXGroup;
+			children = (
+				ED72BED7296E3DE3008E3E5A /* SoundCloudWebUIView.swift */,
+				ED72BED9296E3E0C008E3E5A /* SpotifyWebUIView.swift */,
+			);
+			path = WebUIViews;
+			sourceTree = "<group>";
+		};
+		ED108564297C9B4A0099BFF1 /* Spotify */ = {
+			isa = PBXGroup;
+			children = (
+				ED72BECD296E3D14008E3E5A /* SpotifyError.swift */,
+				ED72BED1296E3D68008E3E5A /* SpotifyAuthResponse.swift */,
+				ED108565297C9B610099BFF1 /* SpotifyArtist.swift */,
+				ED108567297C9B940099BFF1 /* SpotifyImageModel.swift */,
+				ED108569297C9BE20099BFF1 /* SpotifyTrack.swift */,
+				ED10856B297C9C050099BFF1 /* SpotifyAlbum.swift */,
+				ED10856F297C9C810099BFF1 /* SpotifyUserProfile.swift */,
+			);
+			path = Spotify;
+			sourceTree = "<group>";
+		};
+		ED108571297C9CB90099BFF1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ED108572297C9D0A0099BFF1 /* SpotifyPlayerManagerViewModel.swift */,
+				ED108574297C9D3A0099BFF1 /* SpotifyProfileViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ED108576297C9EBD0099BFF1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ED6561AA296A4F0B00491487 /* HomeView.swift */,
+				ED108558297C90AF0099BFF1 /* TabBarView.swift */,
+				ED10855A297C90C70099BFF1 /* ProfileView.swift */,
+				ED10855C297C90D40099BFF1 /* ExploreView.swift */,
+				ED10855E297C91110099BFF1 /* CommunityView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		ED108577297C9EDF0099BFF1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				ED108578297C9EFF0099BFF1 /* PlayerView.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		ED57582A2969FADA00373F3E = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +174,14 @@
 			isa = PBXGroup;
 			children = (
 				ED5758362969FADA00373F3E /* MultiPlaylistsV0_3App.swift */,
-				ED5758382969FADA00373F3E /* ContentView.swift */,
+				EDADEE13296E386D00110C39 /* Views */,
+				EDADEE12296E386400110C39 /* Managers */,
+				ED108571297C9CB90099BFF1 /* ViewModels */,
+				EDADEE14296E387300110C39 /* Models */,
+				EDADEE15296E387A00110C39 /* Helpers */,
 				ED57583A2969FADB00373F3E /* Assets.xcassets */,
 				ED57583C2969FADB00373F3E /* Preview Content */,
+				ED72BEDB296E3EC8008E3E5A /* SpotifyAPICaller.swift */,
 			);
 			path = MultiPlaylistsV0.3;
 			sourceTree = "<group>";
@@ -65,6 +192,45 @@
 				ED57583D2969FADB00373F3E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDADEE12296E386400110C39 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EDADEE16296E3B2500110C39 /* MainAuthManager.swift */,
+				ED72BEC4296E3C37008E3E5A /* SoundCloudAuthManager.swift */,
+				ED72BEC6296E3C42008E3E5A /* SpotifyAuthManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		EDADEE13296E386D00110C39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED108556297C8EC80099BFF1 /* Authentication */,
+				ED108576297C9EBD0099BFF1 /* Core */,
+				ED108577297C9EDF0099BFF1 /* Other */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EDADEE14296E387300110C39 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED108564297C9B4A0099BFF1 /* Spotify */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EDADEE15296E387A00110C39 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				ED72BECB296E3CC6008E3E5A /* UserDefaultHelpers.swift */,
+				ED72BECF296E3D31008E3E5A /* SpotifyParsing.swift */,
+				ED108560297C9AFB0099BFF1 /* ScreenSizeHelper.swift */,
+				ED108562297C9B1E0099BFF1 /* ArtistNameHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +249,9 @@
 			dependencies = (
 			);
 			name = MultiPlaylistsV0.3;
+			packageProductDependencies = (
+				ED72BEC9296E3C71008E3E5A /* SoundCloud */,
+			);
 			productName = MultiPlaylistsV0.3;
 			productReference = ED5758332969FADA00373F3E /* MultiPlaylistsV0.3.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +280,9 @@
 				Base,
 			);
 			mainGroup = ED57582A2969FADA00373F3E;
+			packageReferences = (
+				ED72BEC8296E3C71008E3E5A /* XCRemoteSwiftPackageReference "SoundCloud" */,
+			);
 			productRefGroup = ED5758342969FADA00373F3E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +309,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED5758392969FADA00373F3E /* ContentView.swift in Sources */,
+				ED108559297C90AF0099BFF1 /* TabBarView.swift in Sources */,
+				ED72BED6296E3DB0008E3E5A /* SpotifyAuthView.swift in Sources */,
+				ED6561AB296A4F0B00491487 /* HomeView.swift in Sources */,
+				ED108579297C9EFF0099BFF1 /* PlayerView.swift in Sources */,
+				ED72BED2296E3D68008E3E5A /* SpotifyAuthResponse.swift in Sources */,
+				ED108568297C9B940099BFF1 /* SpotifyImageModel.swift in Sources */,
+				ED108570297C9C810099BFF1 /* SpotifyUserProfile.swift in Sources */,
+				EDADEE17296E3B2500110C39 /* MainAuthManager.swift in Sources */,
+				ED72BECE296E3D14008E3E5A /* SpotifyError.swift in Sources */,
+				ED72BEDA296E3E0C008E3E5A /* SpotifyWebUIView.swift in Sources */,
+				ED72BED0296E3D31008E3E5A /* SpotifyParsing.swift in Sources */,
+				ED72BECC296E3CC6008E3E5A /* UserDefaultHelpers.swift in Sources */,
+				ED72BEC7296E3C42008E3E5A /* SpotifyAuthManager.swift in Sources */,
+				ED108575297C9D3A0099BFF1 /* SpotifyProfileViewModel.swift in Sources */,
+				ED10855B297C90C70099BFF1 /* ProfileView.swift in Sources */,
+				ED6561A9296A4CAB00491487 /* WelcomeView.swift in Sources */,
+				ED108566297C9B610099BFF1 /* SpotifyArtist.swift in Sources */,
+				ED72BED4296E3DA4008E3E5A /* SoundCloudAuthView.swift in Sources */,
+				ED72BEC5296E3C37008E3E5A /* SoundCloudAuthManager.swift in Sources */,
+				ED10856C297C9C050099BFF1 /* SpotifyAlbum.swift in Sources */,
+				ED10856A297C9BE20099BFF1 /* SpotifyTrack.swift in Sources */,
+				ED72BEDC296E3EC8008E3E5A /* SpotifyAPICaller.swift in Sources */,
+				ED108573297C9D0A0099BFF1 /* SpotifyPlayerManagerViewModel.swift in Sources */,
+				ED72BED8296E3DE3008E3E5A /* SoundCloudWebUIView.swift in Sources */,
+				ED108561297C9AFB0099BFF1 /* ScreenSizeHelper.swift in Sources */,
+				ED6561AD296A4F5600491487 /* AuthenticationView.swift in Sources */,
+				ED10855D297C90D40099BFF1 /* ExploreView.swift in Sources */,
+				ED108563297C9B1E0099BFF1 /* ArtistNameHelper.swift in Sources */,
+				ED10855F297C91110099BFF1 /* CommunityView.swift in Sources */,
 				ED5758372969FADA00373F3E /* MultiPlaylistsV0_3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +475,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +505,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +541,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED72BEC8296E3C71008E3E5A /* XCRemoteSwiftPackageReference "SoundCloud" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lbrndnr/SoundCloud";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED72BEC9296E3C71008E3E5A /* SoundCloud */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED72BEC8296E3C71008E3E5A /* XCRemoteSwiftPackageReference "SoundCloud" */;
+			productName = SoundCloud;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ED57582B2969FADA00373F3E /* Project object */;
 }
