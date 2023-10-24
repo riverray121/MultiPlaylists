@@ -2,7 +2,7 @@
 
 ## Description
 
-An unfinished SwiftUI app built to combine Spotify and SoundCloud into a single app to allow fo the creation of cross platform playlists.
+A SwiftUI app built to combine Spotify and SoundCloud into a single app to allow fo the creation of cross platform playlists.
 
 As stands the authentication process for SoundCloud and Spotify are both fully implemented as well as Spotify API calls for play/pause of a Spotify player and an integration of a Spotify player within the app using an embeded [Spotify WebPlayerSDk Website](https://github.com/riverray121/SpotifyReactExpresssPlayer) built seperately.
 
